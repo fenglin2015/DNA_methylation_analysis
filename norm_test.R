@@ -4,8 +4,8 @@ normal_test<- function(input.data,alpha=0.05,picplot=TRUE){
     #par(mfrow=c(2,1))
     
     #Q-Q图法
-   # qqnorm(input.data,main="qq图")
-   # qqline(input.data)
+   qqnorm(input.data,main="qq图")
+   qqline(input.data)
     
     #概率密度曲线比较法
     hist(input.data,freq=F,main="直方图和密度估计曲线")
